@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	margin: auto;
+}
+img{ border-width:0;}
+.container {
+	width: 1000px;
+	background-color: #EEF7FE;
+}
+.contanier1 {
+	width: 900px;
+	margin: 25px;
+}
+.banner {
+	width: 900px;
+	height: 160px;
+	line-height: 160px;
+}
+.banner-bg {
+	width: 159px;
+	height: 151px;
+	float: left;
+	text-align: center;
+	line-height: 151px;
+}
+.pic1 {
+	max-width: 80%;
+	max-height: 80%;
+	margin-top: 19px;
+}
+.text1 {
+	width: 500px;
+	height: 150px;
+	float: left;
+	font-size: 42px;
+	line-height: 150px;
+	color: #000;
+	font-weight: bold;
+	margin-left: 5px;
+}
+.submit {
+	width: 100px;
+	margin-left: 130px;
+	height: 40px;
+	float: left;
+	margin-top: 100px;
+}
+.layout {
+	width: 900px;
+	background-color: #EEF7FE;
+	border-radius: 20px;
+}
+.time {
+	width: 50px;
+	height: 50px;
+	margin-right: 0px;
+	position: relative;
+	float: left;
+}
+.pic2 {
+	max-height: 80%;
+	text-align: center;
+	max-width: 80%;
+	margin-top: 5px;
+}
+.test {
+	width: 900px;
+	background-color: #EEF7FE;
+	overflow: hidden;
+	margin-right: 0px;
+}
+.footer {
+	width: 1000px;
+	height: 50px;
+}
+.cherix_table {
+	float: left;
+	width: 900px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+.cherix_item {
+	font-size: 30px;
+	font-weight: bold;
+	width: 900px;
+	line-height: 50px;
+	margin-top: 30px;
+	float: left;
+	text-align: center;
+}
+.first_tr {
+	font-size: 22px;
+	font-weight: bold;
+}
+.other_tr {
+	line-height: 30px;
+	font-size: 20px;
+}
+.timer {
+	 
+	height: 50px;
+	position: fixed;
+	z-index: 1000;
+	margin-top:0px;
+	margin-left:590px;
+	font-size: 22px;
+}
+.timer table {
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+.minute {
+	width: 50px;
+	text-align: center;
+}
+.minute_font {
+}
+.second {
+	width: 50px;
+	text-align: center;
+	color: red;
+}
+.second_font {
+}

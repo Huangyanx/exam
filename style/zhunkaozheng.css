@@ -1,0 +1,208 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 12px;
+	text-align: center;
+}
+.container {
+	width: 1000px;
+	height: 1220px;
+	margin: auto;
+	border: #06C solid 1px;
+}
+ .div_print{
+	width: 1000px;
+	height: 1170px;
+	margin: auto;
+} 
+.clear {
+	clear: both;
+}
+.box {
+	width: 1000px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.box1 {
+	width: 1000px;
+	height: 550px;
+	float: left;
+}
+.box1son1 {
+	width: 490px;
+	height: 540px;
+	background-color: #F3F8FC;
+	border: #06F solid 2px;
+	float: left;
+}
+.text1 {
+	width: 490px;
+	height: 50px;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 20px;
+}
+.text2 {
+	width: 490px;
+	height: 60px;
+	font-weight: bold;
+	color: #1783ED;
+	line-height: 60px;
+	font-size: 36px;
+}
+.pic1 {
+	width: 123px;
+	height: 148px;
+	background-color: #FFF;
+	float: left;
+	margin-right: 10px;
+	border: #000 solid 1px;
+}
+.font1 {
+	width: 300px;
+	height: 214px;
+	float: left;
+}
+.font1 ul {
+	margin-left: 70px;
+	font-size: 16px;
+}
+.font1 ul li {
+	list-style: none;
+	text-align: left;
+	padding: 5px;
+}
+.text3 {
+	width: 462px;
+	text-align: left;
+	float: left;
+}
+.text3 ul li {
+	margin-left: 30px;
+	padding: 10px;
+	border: #000 solid 1px;
+	list-style: none;
+}
+span {
+	font-size: 18px;
+	font-weight: bold;
+}
+.box1son2 {
+	width: 490px;
+	height: 540px;
+	background-color: #F3F8FC;
+	border: #06F solid 2px;
+	float: left;
+	margin-left: 4px;
+}
+.box2 {
+	width: 1000px;
+	height: 550px;
+	float: left;
+	margin-top: 14px;
+}
+.message_f3 {
+	width: 832px;
+	height: 36px;
+	margin-top: 4px;
+	position: relative;
+	float: left;
+}
+.span_ul {
+	display: inline;
+	float: left;
+	margin-left: 160px;
+	margin-top: 13px;
+	position: relative;
+}
+.span_ul div {
+	float: left;
+	display: inline;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+}
+.span_ul a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+.span_1 {
+	width: 55px;
+	text-align: center;
+}
+.span_2 {
+	width: 60px;
+	text-align: center;
+}
+.span_3 {
+	width: 60px;
+	text-align: center;
+}
+.span_4 {
+	width: 50px;
+	text-align: center;
+}
+.span_5 {
+	text-align: center;
+}
+.span_6 {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+.span_7 {
+	width: 60px;
+	text-align: left;
+}
+.span_8 {
+	width: 40px;
+	text-align: left;
+}
+.span_9 {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+.span_10 {
+}
+.shanchu {
+	position: absolute;
+	left: 607px;
+	top: 5px;
+}
+
+.dayin {
+	width: 80px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 18px;
+	float: left;
+	margin-top: 4px;
+	margin-left: -200px;
+	background-color: #999;
+}
+.button1 {
+	width: 80px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 36px;
+	height: 36px;
+}
+.pic2 {
+	width: 123px;
+	height: 148px;
+}
+.back {
+	float: left;
+	margin-top: 3px;
+}
+#back {
+	height: 38px;
+}
+img {
+	border-width: 0;
+}

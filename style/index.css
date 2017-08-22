@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-width: 0;
+}
+#all {
+	width: 1000px;
+	height: 800px;
+	 
+	margin: 0 auto;
+	background-image: url(../images/bg.png);
+}
+.banner {
+	height: 145px;
+	width: 1000px;
+	overflow: hidden;
+	position: relative;
+}
+a {
+	color: #000;
+}
+.banner_left {
+	height: 145px;
+	float: left;
+}
+.banner_left_img {
+	margin-top: 37px;
+	margin-left: 57px;
+	float: left;
+}
+#banner_left_img {
+	width: 105px;
+}
+.banner_middle {
+	height: 145px;
+	float: left;
+}
+.banner_middle_font1 {
+	font-size: 42px;
+	color: #FFF;
+	font-weight: bold;
+	margin-top: 45px;
+	margin-left: 120px;
+}
+.banner_middle_font2 {
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 120px;
+}
+.start {
+	position: absolute;
+	left: 850px;
+	top: 80px;
+}
+#start {
+	height: 50px;
+}
+.span1 {
+}
+.span2 {
+}
+.banner_right {
+	height: 145px;
+	float: left;
+}
+.main {
+	height: 534px;
+	width: 1000px;
+}
+.main_left {
+	width: 200px;
+	height: 534px;
+	float: left;
+}
+.ul {
+	margin-left: 36px;
+	margin-top: 70px;
+	overflow: hidden;
+}
+.li {
+	margin-top: 5px;
+	margin-left: 2px;
+	width: 162px;
+}
+.li_add {
+	border-left: #0888A8 2px solid;
+	border-top: #0888A8 2px solid;
+	border-bottom: #0888A8 2px solid;
+	margin-left: 0;
+	margin-top: 3px;
+	background-color: #EEF6FF;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.floor1 {
+	width: 162px;
+	height: 50px;
+}
+.floor2 {
+	width: 145px;
+	height: 2px;
+	background-color: #333;
+}
+.floor_img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+.floor_font {
+	float: left;
+	height: 50px;
+	width: 112px;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: left;
+}
+#img1 {
+	width: 36px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img2 {
+	width: 36px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img3 {
+	width: 36px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img4 {
+	width: 32px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img5 {
+	width: 36px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img6 {
+	width: 36px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+#img7 {
+	width: 42px;
+	position: absolute;
+	top: 5px;
+	left: 1px;
+}
+.main_right {
+	width: 760px;
+	height: 534px;
+	background-color: #EEF6FF;
+	float: left;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.cherix {
+	width: 760px;
+	height: 534px;
+	background-color: #EEF6FF;
+	border-radius: 10px;
+	display: none;
+	overflow-y: auto;
+	overflow-x: hidden
+}
+.cherix_item {
+	width: 760px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.cherix_table {
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.first_tr {
+	font-size: 20px;
+	font-weight: bold;
+}
+.other_tr {
+	height: 35px;
+}
+.kszl_table {
+	border-collapse: collapse;
+	margin-top: 50px;
+	margin-left: 130px;
+}
+.touxiang {
+	position: absolute;
+	width: 128px;
+	height: 143px;
+	background-color: #FFF;
+	border-radius: 5px;
+	top: 50px;
+	left: 545px;
+}
+.kszl_td1 {
+	font-size: 28px;
+	font-weight: bold;
+	height: 60px;
+	text-align: right;
+	line-height: 60px;
+}
+.kszl_td2 {
+	font-size: 28px;
+	font-weight: bold;
+	height: 60px;
+	text-align: left;
+	width: 400px;
+	line-height: 60px;
+}
+.cjcx_table {
+	border-collapse: collapse;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+.cjcx_td1 {
+	text-align: right;
+	height: 100px;
+	line-height: 100px;
+}
+.cjcx_td2 {
+	text-align: left;
+	height: 100px;
+	line-height: 100px;
+	width: 100px;
+}
+.kcgz_font {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 50px;
+}
+.liuyan {
+	font-size: 26px;
+	line-height: 40px;
+	float: left;
+	display: inline;
+	font-weight: bold;
+	width: 500px;
+	margin-left: 130px;
+	margin-top: 200px;
+}
+.footer {
+	height: 121px;
+	height: 121px;
+}
+#back1 {
+	height: 40px;
+}
+.back {
+	position: relative;
+	float: left;
+	margin-left: 860px;
+	margin-top: 40px;
+}
+.back_add {
+	background-color: #5DE3FE;
+}
+.back a {
+	color: #000;
+}
+.back_font {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	;
+	font-size: 20px;
+	font-weight: bold;
+}
+.timer {
+	width: 300px;
+	height: 100px;
+	background-color: #093;
+	position: fixed;
+	z-index: 1000;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+.timer table {
+	border-collapse: collapse;
+}
+.minute {
+	width: 50px;
+	text-align: center;
+}
+.minute_font {
+}
+.second {
+	width: 50px;
+	text-align: center;
+}
+.second_font {
+}

@@ -1,0 +1,391 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+	word-break: break-all;
+}
+.clear {
+	clear: left;
+	width: 1000px;
+	height: 0;
+	overflow: hidden;
+}
+#all {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #999;
+}
+.banner {
+	width: 1000px;
+	height: 106px;
+	 
+	overflow: hidden;
+}
+.banner_f1 {
+	width: 1000px;
+	height: 88px;
+	background-image: url(../images/001.png);
+	overflow: hidden;
+}
+.banner_font {
+	font-size: 46px;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.banner_f2 {
+	width: 1000px;
+	height: 11px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.banner_f3 {
+	width: 1000px;
+	height: 2px;
+	background-color: #ECF2F2;
+	overflow: hidden;
+}
+.banner_f4 {
+	width: 1000px;
+	height: 5px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.main {
+	width: 1000px;
+	height: 652px;
+	background-color: #E5F4BD;
+}
+.main_font {
+	font-size: 42px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 368px;
+	margin-top: 15px;
+}
+.test {
+	width: 40px;
+	height: 40px;
+	background-color: #FF0;
+}
+.f1 {
+	width: 1000px;
+	height: 36px;
+	position: relative;
+	overflow: hidden;
+	margin-top: 5px;
+}
+.search_img {
+	float: left;
+	position: relative;
+	top: -1px;
+	left: 10px;
+}
+#search_img {
+	height: 42px;
+}
+.f1_font {
+	float: left;
+	display: inline;
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 200px;
+}
+.f1_input {
+	float: left;
+}
+#f1_input {
+	height: 28px;
+	width: 230px;
+	font-size: 26px;
+}
+#s1 {
+	float: left;
+	height: 30px;
+	width: 130px;
+	margin-left: 4px;
+	font-size: 22px;
+}
+#s2 {
+	float: left;
+	width: 130px;
+	margin-left: 4px;
+	font-size: 22px;
+	height: 30px;
+}
+#s3, #s4, #s5 {
+	display: none;
+	float: left;
+	font-size: 22px;
+	width: 130px;
+	margin-left: 4px;
+}
+.fl2 {
+	width: 1000px;
+	height: 455px;
+	position: relative;
+	margin-top: 15px;
+}
+.fl2_left {
+	width: 112px;
+	height: 455px;
+	float: left;
+	 
+}
+.ul {
+	float: left;
+	display: inline;
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 43px;
+	position: relative;
+	 
+}
+.ul li {
+	margin-bottom: 26px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.blank {
+	position: absolute;
+	background-color: #FFF;
+	z-index: 1;
+	width: 108px;
+	height: 40px;
+	left: -5px;
+	top: 85px;
+	border-radius: 5px;
+}
+.z {
+	position: relative;
+	z-index: 3;
+}
+.ul a {
+	text-decoration: none;
+	color: #000;
+}
+.ul a:hover {
+	text-decoration: underline;
+	color: #F00;
+}
+.fl2_right {
+	width: 880px;
+	height: 455px;
+	float: left;
+	background-color: #FFF;
+	border-radius: 10px;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.fl2_rights {
+	width:880px;
+	height: 455px;
+	float: left;
+	background-color: #FFF;
+	border-radius: 10px;
+	display: none;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.table1 {
+	width:860px;
+	border-collapse: collapse;
+	margin-top: 10px;
+	margin-left:10px;
+	 float:left;
+}
+.table1 tr {
+	 
+	overflow: hidden;
+}
+.table1 td {
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.td1 {
+	 
+	position: relative;
+}
+.all_checked, .all_checkeds {
+	position: absolute;
+	top: 6px;
+	left: 12px;
+}
+.td2 {
+	 
+	color: #F00;
+}
+.td3 {
+	 
+	color: #000;
+}
+.td2s {
+	 
+	color: #000;
+}
+.td3s {
+	 
+	color: #F00;
+}
+.table2 {
+	margin:0 auto;
+	 
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+.table2 tr {
+	 
+}
+.table2 td {
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.tds1 {
+	width:44px; 
+}
+.tds2 {
+	 width:300px;
+}
+.tds3 {
+	 width:300px;
+}
+.tds4 {
+	  width:110px;
+}
+.tds5 {
+	 width:100px;	
+}
+.table_content {
+    
+	height: 330px;
+	margin-left: 11px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.table3 {
+	width:860px;
+	 
+	border-collapse: collapse;
+	table-layout:fixed;
+}
+.table3 tr {
+	 
+}
+.table3 a {
+	text-decoration: none;
+	color: #000;
+}
+.table3 a:hover {
+	color: #F00;
+}
+.table3 td {
+	 white-space:nowrap;overflow:hidden;
+	height: 30px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #999;
+}
+.tdss1 {
+	 width:40px;
+	 
+}
+.checked, .checkeds {
+}
+.tdss2 {
+	 width:300px;
+}
+.tdss3 {
+	 width:250px;
+}
+.tdss4 {
+	 width:164px;
+}
+.tdss5 {
+width:100px;	 
+}
+.table4 {
+	display: inline;
+	float: left;
+	font-size: 12px;
+	border-collapse: collapse;
+ 
+	margin-left: 130px;
+}
+.table4 a {
+	text-decoration: none;
+	color: #000;
+}
+.table4 a:hover {
+	color: #00F;
+}
+.tdsss1 {
+	width: 45px;
+}
+.tdsss2 {
+	width: 60px;
+}
+.tdsss3 {
+	width: 60px;
+}
+.tdsss4 {
+	width: 50px;
+}
+.tdsss5 {
+	width: 20px;
+}
+.tdsss6 {
+	width: 30px;
+}
+.tdsss7 {
+	width: 50px;
+}
+.tdsss8 {
+	width: 40px;
+}
+.tdsss9 {
+	width: 30px;
+}
+.tdsss10 {
+	width: 20px;
+}
+.add {
+	float: left;
+	position: relative;
+	 
+	left: 70px;
+}
+.dele {
+	float: left;
+	position: relative;
+	 
+	left: 80px;
+}
+.footer {
+	width: 1000px;
+	height: 42px;
+	background-image: url(../images/002.png);
+	margin-top: 78px;
+}
+img {
+	border-width: 0;
+}
+.table_content {
+}

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+#all{ width:1000px; height:600px;  margin:0 auto; overflow:hidden;}
+.box{ background-color:#FF0;}
+.box1son1 {
+	width: 490px;
+	height: 550px;
+	background-color: #F3F8FC;
+	border: #06F solid 2px;
+	float: left;
+}
+.text1 {
+	width: 490px;
+	height: 50px;
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 20px;
+}
+.text2 {
+	width: 490px;
+	height: 60px;
+	font-weight: bold;
+	color: #1783ED;
+	line-height: 60px;
+	text-align:center;
+	font-size: 36px;
+}
+.pic1 {
+	width: 123px;
+	height: 148px;
+	background-color: #FFF;
+	float: left;
+	margin-right: 10px;
+	border: #000 solid 1px;
+}
+.font1 {
+	width: 300px;
+	height: 214px;
+	float: left;
+}
+.font1 ul {
+	margin-left: 70px;
+	font-size: 16px;
+}
+.font1 ul li {
+	list-style: none;
+	text-align: left;
+	padding: 5px;
+}
+.text3 {
+	width: 462px;
+	text-align: left;
+	float: left;
+}
+.text3 ul li {
+	margin-left: 30px;
+	padding: 10px;
+	border: #000 solid 1px;
+	list-style: none;
+}
+span {
+	font-size: 18px;
+	font-weight: bold;
+}
+.box{ width:490px; height:550px; margin:0 auto; }
+

@@ -1,0 +1,18 @@
+<?php
+include 'conn.php';
+require 'comm.php';
+if (isset($_GET["del"])) {
+	foreach ($_GET["del"] as $value ){
+		$query="delete from mastudent where id='$value'";
+		$result=mysql_query($query);
+		if (!$result) {
+			page_jump("É¾³ýÊ§°Ü£¡", "studentmanage.php");
+		}
+	}
+	page_jump("É¾³ý³É¹¦£¡", "studentmanage.php");
+}else {
+	page_jump("ÇëÑ¡ÔñÄãÒªÉ¾³ýµÄÑ¡Ïî£¡", "studentmanage.php");
+}
+
+
+?>

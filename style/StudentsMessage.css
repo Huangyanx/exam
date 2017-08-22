@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border-width: 0;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear: left;
+	width: 1000px;
+	height: 0;
+	overflow: hidden;
+}
+#all {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+.banner {
+	width: 1000px;
+	height: 106px;
+	 
+	overflow: hidden;
+}
+.banner_f1 {
+	width: 1000px;
+	height: 88px;
+	background-image: url(../images/001.png);
+	overflow: hidden;
+}
+.banner_font {
+	font-size: 46px;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.banner_f2 {
+	width: 1000px;
+	height: 11px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.banner_f3 {
+	width: 1000px;
+	height: 2px;
+	background-color: #ECF2F2;
+	overflow: hidden;
+}
+.banner_f4 {
+	width: 1000px;
+	height: 5px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.main {
+	width: 1000px;
+	height: 652px;
+	background-color: #E5F4BD;
+}
+.main_font {
+	font-size: 42px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 360px;
+	margin-top: 15px;
+}
+.box {
+	width: 540px;
+	height: 490px;
+	background-color: #FEFEFC;
+	border-radius: 10px;
+	margin: 0 auto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-top: 17px;
+}
+.box_font {
+	font-size: 32px;
+	font-weight: bold;
+	display: inline;
+	float: left;
+	margin-left: 195px;
+	margin-top: 18px;
+}
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6 {
+	width: 540px;
+	margin-top: 30px;
+	float: left;
+}
+.span1 {
+	width: 180px;
+	float: left;
+	text-align: right;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+}
+.span2 {
+	width: 330px;
+	float: left;
+	text-align: left;
+	font-size: 30px;
+	color: #000;
+	font-weight: bold;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+	word-break: break-all;
+}
+.footer {
+	width: 1000px;
+	height: 42px;
+	background-image: url(../images/002.png);
+	position: relative;
+}
+#queren {
+	height: 40px;
+}
+.queren {
+	position: absolute;
+	top: -55px;
+	left: 530px;
+}
+#fanhui {
+	height: 39px;
+}
+.fanhui {
+	position: absolute;
+	top: -55px;
+	left: 650px;
+}

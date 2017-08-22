@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	overflow-x : hidden;
+	height : 100%;
+	margin : 0;
+	padding : 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+img{ border-width:0;}
+.clear {
+	clear: both;
+	width: 1000px;
+	height: 0;
+	overflow: hidden;
+}
+#all {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+.banner {
+	width: 1000px;
+	height: 106px;
+	background-color: #F00;
+	overflow: hidden;
+}
+.banner_f1 {
+	width: 1000px;
+	height: 88px;
+	background-image: url(../images/001.png);
+	overflow: hidden;
+}
+.banner_font {
+	font-size: 46px;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+.banner_f2 {
+	width: 1000px;
+	height: 11px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.banner_f3 {
+	width: 1000px;
+	height: 2px;
+	background-color: #ECF2F2;
+	overflow: hidden;
+}
+.banner_f4 {
+	width: 1000px;
+	height: 5px;
+	background-color: #6C7079;
+	overflow: hidden;
+}
+.main {
+	width: 1000px;
+	height: 652px;
+	background-color: #E5F4BD;
+}
+.main_font {
+	font-size: 42px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	display: inline;
+	margin-left: 368px;
+	margin-top: 15px;
+}
+.box {
+	width: 563px;
+	height: 483px;
+	background-color: #ECEDEF;
+	overflow: auto;
+	border-radius: 10px;
+	margin-left: 225px;
+	margin-top: 21px;
+	display: inline;
+	float: left;
+	overflow-x: hidden;
+}
+.test {
+	width: 550px;
+	float: left;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+	word-break: break-all;
+}
+.box_1 {
+	width: 563px;
+	height: 30px;
+	margin-top: 15px;
+}
+.box_1_font {
+	font-size: 26px;
+	color: #000;
+	margin: 0 auto;
+	width: 130px;
+	font-weight: bold;
+}
+.box_2 {
+	width: 563px;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000;
+	float: left;
+}
+.span1 {
+	width: 150px;
+	text-align: right;
+	float: left;
+}
+.span2 {
+	width: 380px;
+	text-align: left;
+	float: left;
+	word-wrap: break-word;
+	word-break: normal;
+	white-space: normal;
+	word-break: break-all;
+}
+.box_3 {
+	width: 563px;
+	margin-top: 80px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000;
+	float: left;
+}
+.box_4 {
+	width: 563px;
+	margin-top: 80px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000;
+	float: left;
+}
+.footer {
+	width: 1000px;
+	height: 42px;
+	background-image: url(../images/002.png);
+	position: relative;
+}
+#fanhui {
+	height: 39px;
+	 
+}
+.fanhui {
+	position: absolute;
+	top: -55px;
+	left: 650px;
+}
